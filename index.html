@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BookList App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-9NlqO4dP5KfioUGS568UFwM3lbWf3Uj3Qb7FBHuIuhLoDp3ZgAqPE1/MYLEBPZYM" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/db03bb5492.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container mt-4">
+            <h2 class="display-4 text-center"><i class="fas fa-bookmark text-primary"></i>Book<span class="text-primary">List</span></h2>
+            <form id="book-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="title">Author</label>
+                    <input type="text" id="author" class="form-control">
+                </div>
+                <div class="form-group">
+                     <label for="title">ISBN#</label>
+                    <input type="text" id="isbn" class="form-control">
+                </div>
+                <input type="submit" value="Add Book" class="btn btn-primary btn-block">   
+            </form>
+
+            <!-- Table -->
+            <table class="table table-striped mt-5">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN#</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+            </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
