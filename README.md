@@ -10,4 +10,4 @@ Simple app in JavaScript without any library or JS framework, using classes, loc
   - Local Storage
   
   ![]('https://raw.githubusercontent.com/YuliyaNY/BookList/master/booklist.jpg')
-  
+  :point_right: [Live Demo](https://yuliyany.github.io/BookList/)
