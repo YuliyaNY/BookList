@@ -9,3 +9,5 @@ Simple app in JavaScript without any library or JS framework, using classes, loc
   - Classes
   - Local Storage
   
+  ![]('https://raw.githubusercontent.com/YuliyaNY/BookList/master/booklist.jpg')
+  
