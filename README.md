@@ -9,5 +9,5 @@ Simple app in JavaScript without any library or JS framework, using classes, loc
   - Classes
   - Local Storage
   
-  ![](https://raw.githubusercontent.com/YuliyaNY/BookList/master/booklist.jpg)
-  :point_right: [Live Demo](https://yuliyany.github.io/BookList/)
+  ![](https://raw.githubusercontent.com/YuliyaNY/Doom/master/img/doom-readme.jpg)
+  :point_right: [Live Demo](https://yuliyany.github.io/Doom/)
